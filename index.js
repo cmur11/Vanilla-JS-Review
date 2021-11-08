@@ -4,12 +4,12 @@ console.log(a)
 
 var b;
 b = 5;
-a = a + b;
+a += b;
 var c = "I am a ";
 c = c + "String";
-console.log(a,c);
-d = 'hi';
-console.log(d)
+console.log(b);
+
+// console.log(a)
 /*
 Data types:
 undefined, null, boolean, string, symbol, number, object
@@ -21,3 +21,33 @@ let- only can be used in scope
 var- can be used throughout entire program
 const- can never change, available throughout program
 */
+
+var remainder = 11 % 3
+// console.log(remainder)
+b *= 2
+console.log(b)
+
+
+
+/*
+Escape / will make it no longer considered end of string
+*/
+// var myStr = "I am a \"double quoted\" string inside \"double quotes\" "
+// console.log(myStr)
+
+/*
+CODE    OUTPUT
+
+\'      single quote
+\"      double quote
+\\      backslash
+\n      newline
+\r      carriage return
+\t      tab
+\b      backspace
+\f      form feed
+*/
+
+
+var myStr = "I am a \n\"double quoted\" string inside \t\"double quotes\" "
+console.log(myStr)
